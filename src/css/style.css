@@ -1,66 +1,73 @@
-
-
-
-
 :root {
-    --background: yellow;
+    --background: #F4D04E;
     --background-card: white;
+    --font-color:#111111;
+    --font-gray: #7F7F7F;
+    --font-color-hover:var(--background);
 }
+
 
 .main {
     display: flex;
-    margin: 2rem;
-    border: 1px solid black;
-    border-radius: 19px;
-}
-
-.banner {
-    padding: 0.5rem;
-    background-color: var(--background-card);
+    font-family: "figtree", sans-serif;
+    color: var(--font-color);
+    width: 40%;
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,1)
 }
 
 .blogimage {
+    box-sizing: border-box;
     display: flex;
-    margin: auto;
-    background-color: var(--background-card);
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
 }
 
 .category {
+    display: flex;
+    border: 1px solid var(--background);
     background-color: var(--background);
-    width: 30%;
-    margin: 1.0rem;
-    padding: 0.5rem;
-    border-radius: 16px;
     
 }
 
 .publication {
-    padding: 1.5rem;
-    background-color: var(--background-card);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--font-color);
 }
 
 .title {
-    padding: 1.5rem;
-    background-color: var(--background-card);
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 1rem 0;
+    margin: 0;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.title:hover {
+    color: var(--background);
+    cursor: url("/src/img/handcursor.svg"), auto;
 }
 
 .text {
-    display: flex;
-    margin: 1.5rem;
-    background-color: var(--background-card);
-}
-
-.footer {
-    display: flex;
-    padding: 1.5rem;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--font-gray);
 }
 
 .user {
     display: flex;
-    padding: 1.5rem;
+    font-weight: 700;
+    font-size: 14px;
     align-items: center;
-}
-
-.username {
-    padding: 0.5rem;
+    padding: 1rem 0;
 }
