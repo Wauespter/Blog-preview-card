@@ -1,0 +1,66 @@
+
+
+
+
+:root {
+    --background: yellow;
+    --background-card: white;
+}
+
+.main {
+    display: flex;
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 19px;
+}
+
+.banner {
+    padding: 0.5rem;
+    background-color: var(--background-card);
+}
+
+.blogimage {
+    display: flex;
+    margin: auto;
+    background-color: var(--background-card);
+}
+
+.category {
+    background-color: var(--background);
+    width: 30%;
+    margin: 1.0rem;
+    padding: 0.5rem;
+    border-radius: 16px;
+    
+}
+
+.publication {
+    padding: 1.5rem;
+    background-color: var(--background-card);
+}
+
+.title {
+    padding: 1.5rem;
+    background-color: var(--background-card);
+}
+
+.text {
+    display: flex;
+    margin: 1.5rem;
+    background-color: var(--background-card);
+}
+
+.footer {
+    display: flex;
+    padding: 1.5rem;
+}
+
+.user {
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.username {
+    padding: 0.5rem;
+}
